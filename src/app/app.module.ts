@@ -8,7 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SectionSalesComponent } from './sections/section-sales/section-sales.component';
 import { SectionsOrdersComponent } from './sections/sections-orders/sections-orders.component';
 import { SectionHealthComponent } from './sections/section-health/section-health.component';
-
+import { ChartsModule } from 'ng2-charts';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +20,8 @@ import { SectionHealthComponent } from './sections/section-health/section-health
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
