@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ChartType, ChartOptions } from 'chart.js';
-import { SingleDataSet, Label, monkeyPatchChartJsLegend, monkeyPatchChartJsTooltip } from 'ng2-charts';
+import { SingleDataSet, Label, monkeyPatchChartJsLegend, monkeyPatchChartJsTooltip, Colors } from 'ng2-charts';
 
 
 
@@ -20,7 +20,9 @@ export class PieChartComponent implements OnInit {
   public pieChartType: ChartType = 'doughnut';
   public pieChartLegend = true;
   public pieChartPlugins = [];
-
+  public colors: Colors[]= [
+   
+  ]
   constructor() {
     monkeyPatchChartJsTooltip();
     monkeyPatchChartJsLegend();
