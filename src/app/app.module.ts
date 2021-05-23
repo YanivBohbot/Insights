@@ -12,6 +12,7 @@ import { ChartsModule } from 'ng2-charts';
 import { BarchartComponent } from './Charts/barchart/barchart.component';
 import { LineChartComponent } from './Charts/line-chart/line-chart.component';
 import { PieChartComponent } from './Charts/pie-chart/pie-chart.component';
+import { ServerComponent } from './server/server.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { PieChartComponent } from './Charts/pie-chart/pie-chart.component';
     SectionHealthComponent,
     BarchartComponent,
     LineChartComponent,
-    PieChartComponent
+    PieChartComponent,
+    ServerComponent
   ],
   imports: [
     BrowserModule,
