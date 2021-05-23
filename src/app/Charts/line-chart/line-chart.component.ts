@@ -11,6 +11,8 @@ export class LineChartComponent implements OnInit {
 
   public lineChartData: ChartDataSets[] = [
     { data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A' },
+    { data: [15, 78, 74, 1, 98, 40, 78], label: 'Series B' },
+    { data: [84, 47, 65, 25, 82, 86, 36], label: 'Series C' },
   ];
   public lineChartLabels: Label[] = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
   public lineChartOptions: ChartOptions = {
